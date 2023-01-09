@@ -1,9 +1,9 @@
 {
-  "name": "vue-form-builder",
+  "name": "@pbrooker/vue-forms",
   "version": "1.0.0",
   "description": "A drag & drop form builder platform that made with Vue.js and Element UI and generate form sourcecode",
   "author": "GavinZhulei",
-  "license": "LGPL",
+  "license": "LGPL-3.0-or-later",
   "keywords": [
     "component",
     "vue",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Paul-Brooker/vue-forms"
+    "url": "git+https://github.com/Paul-Brooker/vue-forms.git"
   },
   "main": "dist/FormBuilder.common.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "build-bundle": "vue-cli-service build --target lib --name FormBuilder ./src/index.js"
   },
   "dependencies": {
+    "@babel/runtime": "^7.20.7",
     "axios": "^0.21.1",
     "brace": "^0.11.1",
     "core-js": "^3.23.3",
@@ -64,6 +65,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-runtime": "^7.19.6",
     "@types/ace": "^0.0.48",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^3.0.0",
@@ -77,5 +79,12 @@
     "terser-webpack-plugin": "^4.2.3",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.44.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Paul-Brooker/vue-forms/issues"
+  },
+  "homepage": "https://github.com/Paul-Brooker/vue-forms#readme",
+  "directories": {
+    "doc": "docs"
   }
 }
