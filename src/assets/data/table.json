@@ -1,0 +1,164 @@
+{
+  "list": [
+    {
+      "type": "grid",
+      "icon": "icon-grid-",
+      "columns": [
+        {
+          "span": 12,
+          "list": [
+            {
+              "type": "input",
+              "icon": "icon-input",
+              "options": {
+                "width": "100%",
+                "defaultValue": "",
+                "required": false,
+                "dataType": "string",
+                "pattern": "",
+                "placeholder": "",
+                "disabled": false,
+                "remoteFunc": "func_db37214b7"
+              },
+              "name": "Darth Vader",
+              "key": "db37214b7",
+              "model": "input_db37214b7",
+              "rules": [
+                {
+                  "type": "string",
+                  "message": "feel the dark side"
+                }
+              ]
+            },
+            {
+              "type": "input",
+              "icon": "icon-input",
+              "options": {
+                "width": "100%",
+                "defaultValue": "",
+                "required": false,
+                "dataType": "string",
+                "pattern": "",
+                "placeholder": "",
+                "disabled": false,
+                "remoteFunc": "func_ec2750b2e"
+              },
+              "name": "Luke Skywalker",
+              "key": "ec2750b2e",
+              "model": "input_ec2750b2e",
+              "rules": [
+                {
+                  "type": "string",
+                  "message": "I'm Luke Skywalker, I'm here to rescue you"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "span": 12,
+          "list": [
+            {
+              "type": "input",
+              "icon": "icon-input",
+              "options": {
+                "width": "100%",
+                "defaultValue": "",
+                "required": false,
+                "dataType": "string",
+                "pattern": "",
+                "placeholder": "",
+                "disabled": false,
+                "remoteFunc": "func_baca6f45c"
+              },
+              "name": "Chewbacca",
+              "key": "baca6f45c",
+              "model": "input_baca6f45c",
+              "rules": []
+            },
+            {
+              "type": "input",
+              "icon": "icon-input",
+              "options": {
+                "width": "100%",
+                "defaultValue": "",
+                "required": false,
+                "dataType": "string",
+                "pattern": "",
+                "placeholder": "",
+                "disabled": false,
+                "remoteFunc": "func_08cef6efb"
+              },
+              "name": "Han Solo",
+              "key": "08cef6efb",
+              "model": "input_08cef6efb",
+              "rules": [
+                {
+                  "type": "string",
+                  "message": "Jabba, listen"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": {
+        "gutter": 0,
+        "justify": "start",
+        "align": "top",
+        "remoteFunc": "func_f653c23b8"
+      },
+      "name": "C3-PO",
+      "key": "f653c23b8",
+      "model": "grid_f653c23b8",
+      "rules": []
+    },
+    {
+      "type": "table",
+      "icon": "icon-table",
+      "options": {
+        "stripe": true,
+        "border": false,
+        "height": "400",
+        "columns": [
+          {
+            "field": "date",
+            "label": "Date",
+            "width": "180"
+          },
+          {
+            "field": "name",
+            "label": "Name",
+            "width": "180"
+          },
+          {
+            "field": "address",
+            "label": "Address"
+          }
+        ],
+        "defaultValue": [
+          {
+            "date": "2016-05-02",
+            "name": "Obi Wan Kenobi",
+            "address": "Dune Sea, Tatooine"
+          },
+          {
+            "date": "2016-05-04",
+            "name": "Princess Leia",
+            "address": "formerly of Alderaan"
+          }
+        ],
+        "remoteFunc": "func_0c9ef2d30"
+      },
+      "name": "R2-D2",
+      "key": "0c9ef2d30",
+      "model": "table_0c9ef2d30",
+      "rules": []
+    }
+  ],
+  "config": {
+    "labelWidth": 100,
+    "labelPosition": "top",
+    "size": "small"
+  }
+}
