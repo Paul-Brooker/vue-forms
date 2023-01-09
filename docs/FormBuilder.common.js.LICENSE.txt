@@ -1,0 +1,22 @@
+/*!
+ * Viewer.js v1.11.2
+ * https://fengyuanchen.github.io/viewerjs
+ *
+ * Copyright 2015-present Chen Fengyuan
+ * Released under the MIT license
+ *
+ * Date: 2023-01-01T10:14:49.638Z
+ */
+
+/*!
+ * vue-i18n v5.0.3 
+ * (c) 2017 kazuya kawaguchi
+ * Released under the MIT License.
+ */
+
+/**!
+ * Sortable 1.10.2
+ * @author	RubaXa   <trash@rubaxa.org>
+ * @author	owenm    <owen23355@gmail.com>
+ * @license MIT
+ */
