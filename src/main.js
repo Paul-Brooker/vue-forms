@@ -13,6 +13,8 @@ import zhLocale from 'element-ui/lib/locale/lang/zh-CN';
 
 import "regenerator-runtime/runtime.js";
 
+require("babel-polyfill");
+
 Vue.use(VueI18n);
 Vue.use(VueEditor);
 
