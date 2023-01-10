@@ -26,14 +26,12 @@
   "dependencies": {
     "@babel/runtime": "^7.20.7",
     "axios": "^0.21.1",
-    "babel-polyfill": "^6.26.0",
     "brace": "^0.11.1",
     "core-js": "^3.23.3",
     "element-ui": "^2.15.2",
     "normalize.css": "^8.0.1",
     "qiniu": "^7.8.0",
     "qiniu-js": "^3.4.1",
-    "regenerator-runtime": "^0.13.11",
     "sass": "^1.57.1",
     "sass-loader": "^10.1.1",
     "viewerjs": "^1.11.2",
@@ -67,7 +65,6 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.20.12",
-    "@babel/plugin-transform-runtime": "^7.19.6",
     "@types/ace": "^0.0.48",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^3.0.0",
